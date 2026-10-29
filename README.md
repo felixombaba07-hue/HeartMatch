@@ -1,6 +1,6 @@
-# HeartMatch
+# Velora
 
-HeartMatch is a React + Vite frontend backed by Supabase Auth, Postgres, Storage, RLS, and Realtime. Signup is restricted to adults aged 18+ in both the UI and database trigger.
+Velora is a React + Vite frontend backed by Supabase Auth, Postgres, Storage, RLS, and Realtime. Signup is restricted to adults aged 18+ in both the UI and database trigger.
 
 ## Deploy to Vercel
 
@@ -37,7 +37,7 @@ Supabase's built-in email sender has a very low rate limit. To send verification
 1. Verify a domain with an SMTP provider such as Resend.
 2. In Supabase Dashboard, open **Authentication → Emails → SMTP Settings** and enable custom SMTP.
 3. For Resend, host is `smtp.resend.com`, port `465` (SSL) or `587` (STARTTLS), username `resend`, and password is your Resend API key.
-4. Use a sender address on the verified domain (e.g. `noreply@yourdomain.com`) and sender name `HeartMatch`.
+4. Use a sender address on the verified domain (e.g. `noreply@yourdomain.com`) and sender name `Velora`.
 5. Test a signup using an email address you control. Do not turn off email confirmation as a production workaround.
 
 ## Paystack coin purchases
