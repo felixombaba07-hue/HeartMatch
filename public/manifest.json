@@ -1,6 +1,6 @@
 {
-  "name": "HeartMatch — Meet. Match. Connect.",
-  "short_name": "HeartMatch",
+  "name": "Velora — Meet. Match. Connect.",
+  "short_name": "Velora",
   "description": "A thoughtful dating community for adults 18+.",
   "start_url": "/",
   "display": "standalone",
@@ -8,7 +8,7 @@
   "theme_color": "#0b0911",
   "icons": [
     {
-      "src": "/heartmatch-icon.svg",
+      "src": "/velora-icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
