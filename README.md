@@ -28,7 +28,7 @@ Run these SQL files in filename order in Supabase SQL Editor:
 4. `supabase/migrations/202610290004_friend_request_retry.sql`
 5. `supabase/migrations/202610290005_paystack_coin_purchases.sql`
 
-The migrations create the profile/social/chat/wallet tables, 121-item virtual gift catalogue, storage bucket, RLS policies, adult-age guard, realtime subscriptions, friend-request retry policy, and an idempotent coin-purchase ledger. Do not rerun older migrations blindly on a live database; review SQL Editor output and resolve errors.
+The migrations create the profile/social/chat/wallet tables, 121-item virtual gift catalogue, storage bucket, RLS policies, adult-age guard, realtime subscriptions, friend-request retry policy, and an idempotent coin-purchase ledger. If migrations 1–3 are already applied to your Supabase project, run only migrations 4 and 5. Do not rerun older migrations blindly on a live database; review SQL Editor output and resolve errors.
 
 ## Signup email delivery
 
