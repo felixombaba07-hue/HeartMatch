@@ -3,7 +3,7 @@ HeartMatch Vercel + Supabase migration scaffold.
 
 ## Setup
 1. Copy `.env.example` to `.env.local` and set your Supabase Project URL and publishable key.
-2. Run the SQL in `supabase/migrations/202610290001_heartmatch.sql` in Supabase SQL Editor.
+2. Run all three SQL files in `supabase/migrations/` in filename order in Supabase SQL Editor: `202610290001_heartmatch.sql`, `202610290002_security_hardening.sql`, then `202610290003_realtime_gallery.sql`.
 3. In Supabase Storage, the migration creates/sets policies for the `profile-media` bucket.
 4. Run `npm install`, `npm run build`, then deploy the GitHub repository to Vercel.
 5. In Vercel project settings add `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY`.
