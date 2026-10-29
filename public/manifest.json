@@ -1,0 +1,17 @@
+{
+  "name": "HeartMatch — Meet. Match. Connect.",
+  "short_name": "HeartMatch",
+  "description": "A thoughtful dating community for adults 18+.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0911",
+  "theme_color": "#0b0911",
+  "icons": [
+    {
+      "src": "/heartmatch-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
