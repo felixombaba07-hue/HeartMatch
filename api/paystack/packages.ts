@@ -9,7 +9,7 @@ function getPackages(): CoinPackage[] {
     return parsed.filter((p: any) =>
       p && typeof p.id === 'string' && /^[a-z0-9_-]{1,40}$/i.test(p.id) &&
       typeof p.label === 'string' && p.label.length <= 60 &&
-      Number.isSafeInteger(p.amountKes) && p.amountKes > 0 &&
+      Number.isSafeInteger(p.amountKes) && p.amountKes > 0 && p.amountKes <= 10000000 &&
       Number.isSafeInteger(p.coins) && p.coins > 0
     ).map((p: any) => ({ id: p.id, label: p.label, amountKes: p.amountKes, coins: p.coins }));
   } catch {
